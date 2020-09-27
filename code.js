@@ -32,6 +32,6 @@ function Clear() {
     </select>
     Search text: <input id="Searchtxt" type="text"/>
     <input id="btnSearch" onclick="return Search();" type="button" value="Search"/>
-    
+    <input id="btnClear" onclick="return Clear();" type="button" value="Clear"/>
     
     
