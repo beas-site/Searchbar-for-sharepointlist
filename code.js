@@ -30,5 +30,8 @@ function Clear() {
     <option value="">Column3></option>
     <option value="">Column4></option>
     </select>
+    Search text: <input id="Searchtxt" type="text"/>
+    <input id="btnSearch" onclick="return Search();" type="button" value="Search"/>
+    
     
     
