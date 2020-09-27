@@ -25,10 +25,10 @@ function Clear() {
 </script>
     
     Search Field: <select id="dropDown">
-    <option value="">ColumnName1</option>
-    <option value="">ColumnName2</option>
-    <option value="">ColumnName3</option>
-    <option value="">ColumnName4</option>
+    <option value=""><!-- The ColumnName1 you want to search --></option>
+    <option value=""><!-- The ColumnName1 you want to search --></option>
+    <option value=""><!-- The ColumnName1 you want to search --></option>
+    <option value=""><!-- The ColumnName1 you want to search --></option>
     </select>
     Search text: <input id="Searchtxt" type="text"/>
     <input id="btnSearch" onclick="return Search();" type="button" value="Search"/>
