@@ -12,9 +12,15 @@
       }
       else {
       url = "FilterName" + dropDown + "&FilterMultiValue=*" + searchText + "*";
+      window.location.href = "AllItems.aspx";
       }
   }
+  else {
+      return false;
+      }
 }
-  
+function Clear() {
+  window.location.href = "AllItems.aspx?" + url;
+  }
   
   </script>
