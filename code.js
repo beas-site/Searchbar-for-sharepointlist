@@ -22,5 +22,13 @@
 function Clear() {
   window.location.href = "AllItems.aspx?" + url;
   }
-  
-  </script>
+</script>
+    
+    Search Field: <select id="dropDown">
+    <option value="">Column1></option>
+    <option value="">Column2></option>
+    <option value="">Column3></option>
+    <option value="">Column4></option>
+    </select>
+    
+    
